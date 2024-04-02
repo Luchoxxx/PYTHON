@@ -76,3 +76,5 @@ class planeta:
     print("Agregando comentario ")
  
  #Agregabdo mensaje de confirmacion
+#Agregabndo segundo mensaje de confirmacion 2
+    
