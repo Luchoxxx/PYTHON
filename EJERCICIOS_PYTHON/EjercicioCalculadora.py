@@ -6,27 +6,32 @@ print("""
       """)
 bandera = 1
 cadena = []
+n = 0
 while bandera >0:
     
-    if len(cadena) >= 0:
+    if len(cadena) == 0:
         numero = int(input("Ingresa un numero: "))
-        operador = input("Elige la operacion: ")
-        
+        cadena.append(numero)
+    operador = input("Elige la operacion: ")
+
+    if len(cadena) > 0:
+       
         if operador == "suma":
             numero1 = int(input("Ingresa el siguiente numero: "))
-            resultado = numero + numero1
+            resultado = cadena[n] + numero1
         if operador == "resta":
             numero1 = int(input("Ingresa el siguiente numero: "))
-            resultado = numero - numero1
+            resultado = cadena[n] - numero1
         if operador == "division":
             numero1 = int(input("Ingresa el siguiente numero: "))
-            resultado = numero / numero1
+            resultado = cadena[n] / numero1
         if operador == "multiplicacion":
             numero1 = int(input("Ingresa el siguiente numero: "))
-            resultado = numero * numero
+            resultado = cadena[n] * numero1
         print(f"El resultado es {resultado}")
 
-    cadena.append(resultado)
+        cadena.append(resultado)
+        n = n +1
     if operador == "salir":
-        break
+            break
 
