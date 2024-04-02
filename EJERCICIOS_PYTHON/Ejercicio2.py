@@ -12,4 +12,6 @@ def serie_basilea(n):
 suma1 = serie_basilea(3)
 print(suma1)
 
+# Mensaje de comprobacion 
+print("Este programa ejecuta la serie matematica de basilea")
 
