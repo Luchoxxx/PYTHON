@@ -19,19 +19,28 @@ while bandera >0:
         if operador == "suma":
             numero1 = int(input("Ingresa el siguiente numero: "))
             resultado = cadena[n] + numero1
+            print(f"El resultado es {resultado}")
+
         if operador == "resta":
             numero1 = int(input("Ingresa el siguiente numero: "))
             resultado = cadena[n] - numero1
+            print(f"El resultado es {resultado}")
+
         if operador == "division":
             numero1 = int(input("Ingresa el siguiente numero: "))
             resultado = cadena[n] / numero1
+            print(f"El resultado es {resultado}")
+
         if operador == "multiplicacion":
             numero1 = int(input("Ingresa el siguiente numero: "))
             resultado = cadena[n] * numero1
-        print(f"El resultado es {resultado}")
+            print(f"El resultado es {resultado}")
 
         cadena.append(resultado)
         n = n +1
-    if operador == "salir":
-            break
+    else:
+            print("Entrada invalida")
+    
+    if  operador == "salir":
+        break
 
