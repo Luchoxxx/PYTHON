@@ -82,8 +82,4 @@ class auto:
 """)
 
 print("Hola mensaje ")
-# Pequeño mensaje de comprobacion  
-     
-                      
-    
-        
+# Pequeño mensaje de comprobacion                  
