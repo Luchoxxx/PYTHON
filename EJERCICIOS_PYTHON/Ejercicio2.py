@@ -16,3 +16,6 @@ print(suma1)
 print("Este programa ejecuta la serie matematica de basilea")
 print("Este programa")
 #aplicacion
+
+# Agregando un print 
+print("Este programa fuer creado por Luis")
