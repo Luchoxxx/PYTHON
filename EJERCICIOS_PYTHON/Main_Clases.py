@@ -21,6 +21,3 @@ print(Oplaneta1.Evaluar_planeta())
 print(Oplaneta2.Evaluar_planeta())
 print(Oplaneta1.densidad_planeta())
 print(Oplaneta2.densidad_planeta())
-
-
-
