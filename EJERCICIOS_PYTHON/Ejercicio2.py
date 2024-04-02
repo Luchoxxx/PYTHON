@@ -14,4 +14,3 @@ print(suma1)
 
 # Mensaje de comprobacion 
 print("Este programa ejecuta la serie matematica de basilea")
-
