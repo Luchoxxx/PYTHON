@@ -80,7 +80,10 @@ class auto:
                 tipo_auto:{tipo_auto}
 
 """)
-        
+
+print("Hola mensaje ")
+# Pequeño mensaje de comprobacion  
+     
                       
     
         
